@@ -7,7 +7,7 @@ unsigned long int var1, var2;
 unsigned int i = 0, j = 0, k = 0;
 
 int main(void) {
-    PINSEL0 = 0x00FFFFFF;
+    PINSEL0 = 0x00000000;
     IO0DIR |= 0x0000F000;
 
     while (1) {
